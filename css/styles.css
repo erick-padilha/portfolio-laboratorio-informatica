@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}

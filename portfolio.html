@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio dos Educandos</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Menu de Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Laboratório de Informática</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Início</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="portfolio.html">Portfólio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="projetos.html">Projetos</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Vídeo de Apresentação -->
+    <div class="container mt-4">
+        <h1>Portfólio dos Educandos</h1>
+        <video controls class="w-100">
+            <source src="video/apresentacao.mp4" type="video/mp4">
+            Seu navegador não suporta a tag de vídeo.
+        </video>
+        
+        <!-- Botões com Explicações Mensais -->
+        <div class="mt-4">
+            <button class="btn btn-outline-primary btn-lg btn-block mb-3" type="button" data-toggle="collapse" data-target="#marco" aria-expanded="false" aria-controls="marco">
+                Março
+            </button>
+            <div class="collapse" id="marco">
+                <div class="card card-body">
+                    Texto explicando as atividades de março.
+                </div>
+            </div>
+            <button class="btn btn-outline-primary btn-lg btn-block mb-3" type="button" data-toggle="collapse" data-target="#abril" aria-expanded="false" aria-controls="abril">
+                Abril
+            </button>
+            <div class="collapse" id="abril">
+                <div class="card card-body">
+                    Texto explicando as atividades de abril.
+                </div>
+            </div>
+            <button class="btn btn-outline-primary btn-lg btn-block mb-3" type="button" data-toggle="collapse" data-target="#maio" aria-expanded="false" aria-controls="maio">
+                Maio
+            </button>
+            <div class="collapse" id="maio">
+                <div class="card card-body">
+                    Texto explicando as atividades de maio.
+                </div>
+            </div>
+            <button class="btn btn-outline-primary btn-lg btn-block mb-3" type="button" data-toggle="collapse" data-target="#junho" aria-expanded="false" aria-controls="junho">
+                Junho
+            </button>
+            <div class="collapse" id="junho">
+                <div class="card card-body">
+                    Texto explicando as atividades de junho.
+                </div>
+            </div>
+            <button class="btn btn-outline-primary btn-lg btn-block mb-3" type="button" data-toggle="collapse" data-target="#julho" aria-expanded="false" aria-controls="julho">
+                Julho
+            </button>
+            <div class="collapse" id="julho">
+                <div class="card card-body">
+                    Texto explicando as atividades de julho.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="bg-light text-center text-lg-start mt-4">
+        <div class="container p-4">
+            <p>&copy; 2024 Laboratório de Informática. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
