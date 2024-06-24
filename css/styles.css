@@ -1,13 +1,69 @@
 body {
+    margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
-    background-image: url(../img/background1.png);
+    background: url(../img/background.gif);
+    background-size: cover;
 }
 
 h1 {
     margin-top: 20px;
 }
 
+/* Estilo para o menu de navegação */
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #cccccc;
+}
+
+.navbar-dark .navbar-brand {
+    color: #ffffff;
+}
+
 .carousel-item img {
-    height: 400px;
-    object-fit: cover;
+    max-height: 500px; /* Define a altura máxima para as imagens */
+    width: auto; /* Mantém a proporção da imagem */
+    margin: 0 auto; /* Centraliza a imagem */
+}
+
+/* Estilo para o texto de introdução */
+.intro-text p {
+    font-size: 18px;
+    color: #fff; /* Cor do texto */
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5), 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra do texto */
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente para melhor contraste */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+/* Estilo para o texto neon */
+.neon-text {
+    color: #8a2be2; /* Cor neon (roxo) */
+    text-shadow: 0 0 5px #8a2be2, 0 0 10px #8a2be2, 0 0 20px #8a2be2, 0 0 40px #8a2be2, 0 0 80px #8a2be2;
+}
+
+/* Estilo para botões roxos */
+.btn-purple {
+    background-color: #8a2be2;
+    border-color: #8a2be2;
+    color: #ffffff;
+}
+
+.btn-purple:hover {
+    background-color: #7a1dc7;
+    border-color: #7a1dc7;
+    color: #ffffff;
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+footer p {
+    margin: 0;
 }
