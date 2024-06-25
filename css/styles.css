@@ -24,24 +24,33 @@ h1 {
 }
 
 .carousel-item img {
-    max-height: 500px; /* Define a altura máxima para as imagens */
-    width: auto; /* Mantém a proporção da imagem */
-    margin: 0 auto; /* Centraliza a imagem */
+    max-height: 500px;
+    /* Define a altura máxima para as imagens */
+    width: auto;
+    /* Mantém a proporção da imagem */
+    margin: 0 auto;
+    /* Centraliza a imagem */
 }
 
 /* Estilo para o texto de introdução */
 .intro-text p {
     font-size: 18px;
-    color: #fff; /* Cor do texto */
-    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5), 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra do texto */
-    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente para melhor contraste */
-    padding: 10px; /* Espaçamento interno */
-    border-radius: 5px; /* Bordas arredondadas */
+    color: #fff;
+    /* Cor do texto */
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5), 0 0 10px rgba(0, 0, 0, 0.5);
+    /* Sombra do texto */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Fundo semitransparente para melhor contraste */
+    padding: 10px;
+    /* Espaçamento interno */
+    border-radius: 5px;
+    /* Bordas arredondadas */
 }
 
 /* Estilo para o texto neon */
 .neon-text {
-    color: #8a2be2; /* Cor neon (roxo) */
+    color: #8a2be2;
+    /* Cor neon (roxo) */
     text-shadow: 0 0 5px #8a2be2, 0 0 10px #8a2be2, 0 0 20px #8a2be2, 0 0 40px #8a2be2, 0 0 80px #8a2be2;
 }
 
@@ -67,6 +76,17 @@ h1 {
 .btn-outline-purple:hover {
     color: #ffffff;
     border-color: #8a2be2;
+}
+
+.custom-bg {
+    background-color: black;
+    color: white;
+}
+
+/* css/project-styles.css */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
 }
 
 /* Estilo para o rodapé */
