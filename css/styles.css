@@ -58,6 +58,17 @@ h1 {
     color: #ffffff;
 }
 
+/* Estilo para botões outline roxos */
+.btn-outline-purple {
+    color: #8a2be2;
+    border-color: #8a2be2;
+}
+
+.btn-outline-purple:hover {
+    color: #ffffff;
+    border-color: #8a2be2;
+}
+
 /* Estilo para o rodapé */
 footer {
     background-color: #000000;
