@@ -83,10 +83,31 @@ h1 {
     color: white;
 }
 
-/* css/project-styles.css */
-.card-img-top {
-    height: 200px;
+/* Adicione estilos personalizados para os projetos */
+.project-image {
+    height: 200px; /* Altura da imagem dos projetos */
     object-fit: cover;
+}
+
+.card.mb-4 {
+    border-radius: 10px; /* Bordas arredondadas para os cards */
+    overflow: hidden; /* Esconder qualquer conteúdo que ultrapasse as bordas */
+}
+
+.card-header button {
+    font-size: 1.5rem; /* Tamanho da fonte do botão de colapso */
+    text-align: left; /* Alinhar o texto à esquerda */
+    width: 100%; /* Ocupa toda a largura do card-header */
+}
+
+.card-body {
+    font-size: 1rem; /* Tamanho da fonte do texto dentro do card-body */
+}
+
+@media (max-width: 768px) {
+    .card-header button {
+        font-size: 1.2rem; /* Tamanho da fonte menor em dispositivos móveis */
+    }
 }
 
 /* Estilo para o rodapé */
@@ -98,3 +119,32 @@ footer {
 footer p {
     margin: 0;
 }
+
+/* Novos estilos para cards maiores */
+.card-maior {
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white; /* para que o texto fique legível sobre a imagem de fundo */
+}
+
+#marcoCard {
+    background-image: url('img/marco-bg.jpg'); /* Substitua pelo caminho da sua imagem de fundo para Março */
+}
+
+#abrilCard {
+    background-image: url('img/abril-bg.jpg'); /* Substitua pelo caminho da sua imagem de fundo para Abril */
+}
+
+#maioCard {
+    background-image: url('img/maio-bg.jpg'); /* Substitua pelo caminho da sua imagem de fundo para Maio */
+}
+
+#junhoCard {
+    background-image: url('img/junho-bg.jpg'); /* Substitua pelo caminho da sua imagem de fundo para Junho */
+}
+
+#julhoCard {
+    background-image: url('img/julho-bg.jpg'); /* Substitua pelo caminho da sua imagem de fundo para Julho */
+}
+
+/* Outras estilizações conforme necessário */
