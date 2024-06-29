@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background: url(../img/background.gif);
+    background: url(../img/background/background.gif);
     background-size: cover;
 }
 
@@ -128,23 +128,21 @@ footer p {
 }
 
 #marcoCard {
-    background-image: url('img/marco-bg.jpg'); /* Substitua pelo caminho da sua imagem de fundo para Março */
+    background-image: url('img/marco-bg.jpg'); /* Caminho da sua imagem de fundo para Março */
 }
 
 #abrilCard {
-    background-image: url('img/abril-bg.jpg'); /* Substitua pelo caminho da sua imagem de fundo para Abril */
+    background-image: url('img/abril-bg.jpg'); /* Caminho da sua imagem de fundo para Abril */
 }
 
 #maioCard {
-    background-image: url('img/maio-bg.jpg'); /* Substitua pelo caminho da sua imagem de fundo para Maio */
+    background-image: url('img/maio-bg.jpg'); /* Caminho da sua imagem de fundo para Maio */
 }
 
 #junhoCard {
-    background-image: url('img/junho-bg.jpg'); /* Substitua pelo caminho da sua imagem de fundo para Junho */
+    background-image: url('img/junho-bg.jpg'); /* Caminho da sua imagem de fundo para Junho */
 }
 
 #julhoCard {
-    background-image: url('img/julho-bg.jpg'); /* Substitua pelo caminho da sua imagem de fundo para Julho */
+    background-image: url('img/julho-bg.jpg'); /* Caminho da sua imagem de fundo para Julho */
 }
-
-/* Outras estilizações conforme necessário */

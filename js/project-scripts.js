@@ -1,10 +1,11 @@
 document.addEventListener("DOMContentLoaded", function () {
     const imageSets = [
-        ["img/image1_card1.jpg", "img/image2_card1.jpg", "img/image3_card1.jpg", "img/image4_card1.jpg", "img/image5_card1.jpg"],
-        ["img/image1_card1.jpg", "img/image2_card1.jpg", "img/image3_card1.jpg", "img/image4_card1.jpg", "img/image5_card1.jpg"],
-        ["img/image1_card1.jpg", "img/image2_card1.jpg", "img/image3_card1.jpg", "img/image4_card1.jpg", "img/image5_card1.jpg"],
-        ["img/image1_card1.jpg", "img/image2_card1.jpg", "img/image3_card1.jpg", "img/image4_card1.jpg", "img/image5_card1.jpg"],
-        ["img/image1_card1.jpg", "img/image2_card1.jpg", "img/image3_card1.jpg", "img/image4_card1.jpg", "img/image5_card1.jpg"]
+        ["img/card1/image1_card1.jpg", "img/card1/image2_card1.jpg", "img/card1/image3_card1.jpg", "img/card1/image4_card1.jpg", "img/card1/image5_card1.jpg"],
+        ["img/card2/image1_card2.jpg", "img/card2/image2_card2.jpg", "img/card2/image3_card2.jpg", "img/card2/image4_card2.jpg", "img/card2/image5_card2.jpg"],
+        ["img/card1/image1_card1.jpg", "img/card1/image2_card1.jpg", "img/card1/image3_card1.jpg", "img/card1/image4_card1.jpg", "img/card1/image5_card1.jpg"],
+        ["img/card1/image1_card1.jpg", "img/card1/image2_card1.jpg", "img/card1/image3_card1.jpg", "img/card1/image4_card1.jpg", "img/card1/image5_card1.jpg"],
+        ["img/card1/image1_card1.jpg", "img/card1/image2_card1.jpg", "img/card1/image3_card1.jpg", "img/card1/image4_card1.jpg", "img/card1/image5_card1.jpg"],
+        ["img/card1/image1_card1.jpg", "img/card1/image2_card1.jpg", "img/card1/image3_card1.jpg", "img/card1/image4_card1.jpg", "img/card1/image5_card1.jpg"]
     ];
 
     const cards = document.querySelectorAll('.project-image');
