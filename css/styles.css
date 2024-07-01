@@ -54,17 +54,31 @@ h1 {
     text-shadow: 0 0 5px #8a2be2, 0 0 10px #8a2be2, 0 0 20px #8a2be2, 0 0 40px #8a2be2, 0 0 80px #8a2be2;
 }
 
-/* Estilo para botões roxos */
-.btn-purple {
-    background-color: #8a2be2;
-    border-color: #8a2be2;
-    color: #ffffff;
+/* Estilo para os botões de conteúdo */
+.btn-conteudo {
+    border: 2px solid #8a2be2; /* Bordas neon mais grossas */
+    color: #8a2be2; /* Cor do texto */
+    text-shadow: 0 0 5px #8a2be2, 0 0 10px #8a2be2, 0 0 20px #8a2be2, 0 0 40px #8a2be2, 0 0 80px #8a2be2; /* Efeito de texto neon */
+    background-color: transparent; /* Fundo transparente */
+    width: 100%; /* Largura total */
+    margin-bottom: 10px; /* Espaçamento inferior */
 }
 
-.btn-purple:hover {
-    background-color: #7a1dc7;
-    border-color: #7a1dc7;
-    color: #ffffff;
+/* Estilo para o conteúdo expansível */
+.collapse-content {
+    background-color: black; /* Fundo preto */
+    color: white; /* Cor do texto */
+    padding: 15px; /* Espaçamento interno */
+    border: 2px solid #8a2be2; /* Borda neon */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-top: 10px; /* Espaçamento superior */
+}
+
+/* Estilo para o título dentro dos botões */
+.btn-title {
+    font-size: 1.2rem; /* Tamanho da fonte do título */
+    font-weight: bold; /* Negrito para o título */
+    margin-bottom: 5px; /* Espaçamento inferior */
 }
 
 /* Estilo para botões outline roxos */
@@ -76,6 +90,56 @@ h1 {
 .btn-outline-purple:hover {
     color: #ffffff;
     border-color: #8a2be2;
+}
+
+.btn-outline-red {
+    color: #ff0000;
+    border-color: #ff0000;
+}
+
+.btn-outline-red:hover {
+    color: #ffffff;
+    border-color: #ff0000;
+}
+
+.btn-outline-green {
+    color: #00ff00;
+    border-color: #00ff00;
+}
+
+.btn-outline-green:hover {
+    color: #ffffff;
+    border-color: #00ff00;
+}
+
+.btn-outline-blue {
+    color: #0000ff;
+    border-color: #0000ff;
+}
+
+.btn-outline-blue:hover {
+    color: #ffffff;
+    border-color: #0000ff;
+}
+
+.btn-outline-magenta {
+    color: #ff00ff;
+    border-color: #ff00ff;
+}
+
+.btn-outline-magenta:hover {
+    color: #ffffff;
+    border-color: #ff00ff;
+}
+
+.btn-outline-yellow {
+    color: #ffff00;
+    border-color: #ffff00;
+}
+
+.btn-outline-yellow:hover {
+    color: #ffffff;
+    border-color: #ffff00;
 }
 
 .custom-bg {
@@ -122,27 +186,33 @@ footer p {
 
 /* Novos estilos para cards maiores */
 .card-maior {
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: white; /* para que o texto fique legível sobre a imagem de fundo */
+    background-color: black; /* Fundo preto para contraste */
+    color: white; /* Texto branco para contraste */
+    border: 2px solid; /* Borda de 2px */
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5); /* Efeito de sombra neon */
 }
 
 #marcoCard {
-    background-image: url('img/marco-bg.jpg'); /* Caminho da sua imagem de fundo para Março */
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente para melhor contraste */
+    border-color: #ff0000; /* Borda neon vermelha */
 }
 
 #abrilCard {
-    background-image: url('img/abril-bg.jpg'); /* Caminho da sua imagem de fundo para Abril */
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente para melhor contraste */
+    border-color: #00ff00; /* Borda neon verde */
 }
 
 #maioCard {
-    background-image: url('img/maio-bg.jpg'); /* Caminho da sua imagem de fundo para Maio */
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente para melhor contraste */
+    border-color: #0000ff; /* Borda neon azul */
 }
 
 #junhoCard {
-    background-image: url('img/junho-bg.jpg'); /* Caminho da sua imagem de fundo para Junho */
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente para melhor contraste */
+    border-color: #ff00ff; /* Borda neon magenta */
 }
 
 #julhoCard {
-    background-image: url('img/julho-bg.jpg'); /* Caminho da sua imagem de fundo para Julho */
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente para melhor contraste */
+    border-color: #ffff00; /* Borda neon amarela */
 }

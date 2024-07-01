@@ -35,85 +35,83 @@
     <!-- Vídeo de Apresentação -->
     <div class="container mt-4">
         <div class="d-flex justify-content-center">
-            <h1 class="neon-text">Nosso Portfólio</h1>
+            <h1 class="neon-text">Vídeo de apresentação</h1>
         </div>
         <video controls class="w-100">
             <source src="video/apresentacao.mp4" type="video/mp4">
             Seu navegador não suporta a tag de vídeo.
         </video>
 
-        <!-- Botões com Explicações Mensais -->
+        <!-- Cards com conteúdos -->
         <div class="container mt-4">
-            <div class="d-flex justify-content-center">
-                <h1 class="neon-text">O que desenvolvemos no Laboratório de Informática?</h1>
-            </div>
-            <button class="btn btn-outline-purple btn-lg btn-block mb-3" type="button" data-toggle="collapse"
-                data-target="#marco" aria-expanded="false" aria-controls="marco">
-                Março
-            </button>
-            <div class="collapse" id="marco">
-                <div class="card card-body custom-bg">
-                    <h1></h1>
-                    <p>No mês de março, os educandos foram apresentados aos sistemas operacionais e a virtualização.
-                        Exploraram a interface de um sistema operacional, aprendendo sobre a barra de tarefas, ícones e
-                        o menu iniciar. Trabalharam com máquinas virtuais e instalação de VirtualBox. Criaram e
-                        configuraram suas primeiras máquinas virtuais, instalando sistemas operacionais nelas. Tudo isso
-                        proporcionou uma base sólida em sistemas operacionais, virtualização e configurações de máquinas
-                        virtuais.</p>
+            <h1 class="d-flex justify-content-center neon-text">Nosso Portfólio</h1>
+            <br>
+            <div class="row">
+                <!-- Card para conteúdo de Vídeo -->
+                <div class="col-md-6">
+                    <div class="card card-maior mb-4">
+                        <div class="card-header">
+                            <button class="btn btn-conteudo btn-block" type="button" data-toggle="collapse"
+                                data-target="#videoContent" aria-expanded="false" aria-controls="videoContent">
+                                <span class="btn-title">Vídeo</span>
+                            </button>
+                        </div>
+                        <div class="collapse collapse-content" id="videoContent">
+                            <video controls class="w-100">
+                                <source src="video/conteudo_video.mp4" type="video/mp4">
+                                Seu navegador não suporta a tag de vídeo.
+                            </video>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <button class="btn btn-outline-purple btn-lg btn-block mb-3" type="button" data-toggle="collapse"
-                data-target="#abril" aria-expanded="false" aria-controls="abril">
-                Abril
-            </button>
-            <div class="collapse" id="abril">
-                <div class="card card-body custom-bg">
-                    <p>Durante abril, os educandos mergulharam no ambiente do Scratch, uma plataforma de programação
-                        visual. Trabalharam com a personalização de personagens e criação de animações simples. Após
-                        avançaram para criar histórias interativas e explorar padrões visuais utilizando loops. O final
-                        foi reservado para o desenvolvimento de jogos, como labirintos e perguntas e respostas, além de
-                        aprimorar projetos anteriores com gráficos e sons. O mês terminou com a apresentação dos
-                        projetos finais, demonstrando criatividade e aplicação dos conceitos desenvolvidos.</p>
+
+                <!-- Card para conteúdo de Podcast -->
+                <div class="col-md-6">
+                    <div class="card card-maior mb-4">
+                        <div class="card-header">
+                            <button class="btn btn-conteudo btn-block" type="button" data-toggle="collapse"
+                                data-target="#podcastContent" aria-expanded="false" aria-controls="podcastContent">
+                                <span class="btn-title">Podcast</span>
+                            </button>
+                        </div>
+                        <div class="collapse collapse-content" id="podcastContent">
+                            <audio controls class="w-100">
+                                <source src="audio/conteudo_podcast.mp3" type="audio/mpeg">
+                                Seu navegador não suporta o elemento de áudio.
+                            </audio>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <button class="btn btn-outline-purple btn-lg btn-block mb-3" type="button" data-toggle="collapse"
-                data-target="#maio" aria-expanded="false" aria-controls="maio">
-                Maio
-            </button>
-            <div class="collapse" id="maio">
-                <div class="card card-body custom-bg">
-                    <p>Em maio, o foco seria na criação de páginas web utilizando HTML e CSS. Os educandos aprenderam a
-                        estruturar páginas HTML, adicionando tags de cabeçalho e corpo, além de listas e links, onde
-                        criariam formulários e usariam elementos semânticos do HTML5 para melhorar a acessibilidade,
-                        além de utilizarem suas páginas com CSS, aprendendo sobre cores, fontes e layouts responsivos.
-                    </p>
+
+                <!-- Card para conteúdo de Propaganda -->
+                <div class="col-md-6">
+                    <div class="card card-maior mb-4">
+                        <div class="card-header">
+                            <button class="btn btn-conteudo btn-block" type="button" data-toggle="collapse"
+                                data-target="#propagandaContent" aria-expanded="false"
+                                aria-controls="propagandaContent">
+                                <span class="btn-title">Propaganda</span>
+                            </button>
+                        </div>
+                        <div class="collapse collapse-content" id="propagandaContent">
+                            <img src="img/qr_code.png" class="img-fluid" alt="QR Code para download do app">
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <button class="btn btn-outline-purple btn-lg btn-block mb-3" type="button" data-toggle="collapse"
-                data-target="#junho" aria-expanded="false" aria-controls="junho">
-                Junho
-            </button>
-            <div class="collapse" id="junho">
-                <div class="card card-body custom-bg">
-                    <p>Junho foi um mês focado no desenvolvimento de aplicativos usando o MIT App Inventor. Começaram
-                        com a criação de um aplicativo simples e a introdução a variáveis. Exploraram o uso de listas e
-                        a interação com múltiplas telas. Envolveram a incorporação de lógica de controle de fluxo,
-                        eventos de toque e utilização de sensores nos aplicativos. O mês terminou com a revisão de
-                        código e demonstração de uma aplicação prática de todos os conceitos aprendidos.</p>
-                </div>
-            </div>
-            <button class="btn btn-outline-purple btn-lg btn-block mb-3" type="button" data-toggle="collapse"
-                data-target="#julho" aria-expanded="false" aria-controls="julho">
-                Julho
-            </button>
-            <div class="collapse" id="julho">
-                <div class="card card-body custom-bg">
-                    <p>Em julho, os educandos exploraram as mídias digitais e redes sociais. Começando com a criação de
-                        perfis fictícios e a produção de diferentes tipos de conteúdo digital. Após nos dedicamos ao
-                        marketing digital, com a criação de campanhas e produção de vídeos e podcasts. Tamém aprenderam
-                        sobre a criação de blogs, planejamento de conteúdo e técnicas de engajamento. O mês finalizou
-                        com a análise de métricas e no desenvolvimento de um projeto final, onde cada grupo apresentou
-                        suas campanhas de marketing digital ou gestão de contas de redes sociais.</p>
+
+                <!-- Card para conteúdo de Link -->
+                <div class="col-md-6">
+                    <div class="card card-maior mb-4">
+                        <div class="card-header">
+                            <button class="btn btn-conteudo btn-block" type="button" data-toggle="collapse"
+                                data-target="#linkContent" aria-expanded="false" aria-controls="linkContent">
+                                <span class="btn-title">Link</span>
+                            </button>
+                        </div>
+                        <div class="collapse collapse-content" id="linkContent">
+                            <a href="https://www.example.com" target="_blank" rel="noopener">Visite nosso site</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -129,6 +127,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/project-scripts.js"></script>
 </body>
 
 </html>

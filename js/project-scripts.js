@@ -1,11 +1,10 @@
+// js/project-scripts.js
 document.addEventListener("DOMContentLoaded", function () {
     const imageSets = [
-        ["img/card1/image1_card1.jpg", "img/card1/image2_card1.jpg", "img/card1/image3_card1.jpg", "img/card1/image4_card1.jpg", "img/card1/image5_card1.jpg"],
-        ["img/card2/image1_card2.jpg", "img/card2/image2_card2.jpg", "img/card2/image3_card2.jpg", "img/card2/image4_card2.jpg", "img/card2/image5_card2.jpg"],
-        ["img/card1/image1_card1.jpg", "img/card1/image2_card1.jpg", "img/card1/image3_card1.jpg", "img/card1/image4_card1.jpg", "img/card1/image5_card1.jpg"],
-        ["img/card1/image1_card1.jpg", "img/card1/image2_card1.jpg", "img/card1/image3_card1.jpg", "img/card1/image4_card1.jpg", "img/card1/image5_card1.jpg"],
-        ["img/card1/image1_card1.jpg", "img/card1/image2_card1.jpg", "img/card1/image3_card1.jpg", "img/card1/image4_card1.jpg", "img/card1/image5_card1.jpg"],
-        ["img/card1/image1_card1.jpg", "img/card1/image2_card1.jpg", "img/card1/image3_card1.jpg", "img/card1/image4_card1.jpg", "img/card1/image5_card1.jpg"]
+        ['img/card1/image1_card1.jpg', 'img/card1/image2_card1.jpg', 'img/card1/image3_card1.jpg', 'img/card1/image4_card1.jpg', 'img/card1/image5_card1.jpg'],
+        ["img/image2.jpg", "img/image2-2.jpg", "img/image2-3.jpg"],
+        ["img/image3.jpg", "img/image3-2.jpg", "img/image3-3.jpg"],
+        ["img/image4.jpg", "img/image4-2.jpg", "img/image4-3.jpg"]
     ];
 
     const cards = document.querySelectorAll('.project-image');
