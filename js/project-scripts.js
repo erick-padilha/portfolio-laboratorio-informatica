@@ -1,9 +1,15 @@
 // js/project-scripts.js
 document.addEventListener("DOMContentLoaded", function () {
     const imageSets = [
-        ['img/card1/image1_card1.jpg', 'img/card1/image2_card1.jpg', 'img/card1/image3_card1.jpg', 'img/card1/image4_card1.jpg', 'img/card1/image5_card1.jpg'],
-        ["img/image2.jpg", "img/image2-2.jpg", "img/image2-3.jpg"],
-        ["img/image3.jpg", "img/image3-2.jpg", "img/image3-3.jpg"],
+        ['img/card1/img1.jpg', 'img/card1/img2.jpg', 'img/card1/img3.jpg', 'img/card1/img4.jpg', 'img/card1/img5.jpg'],
+        ['img/card2/img1.jpg', 'img/card2/img2.jpg', 'img/card2/img3.jpg', 'img/card2/img4.jpg', 'img/card2/img5.jpg'],
+        ['img/card3/img1.jpg', 'img/card3/img2.jpg', 'img/card3/img3.jpg', 'img/card3/img4.jpg', 'img/card3/img5.jpg'],
+        ['img/card4/img1.jpg', 'img/card4/img2.jpg', 'img/card4/img3.jpg', 'img/card4/img4.jpg', 'img/card4/img5.jpg'],
+        ['img/card5/img1.jpg', 'img/card5/img2.jpg', 'img/card5/img3.jpg', 'img/card5/img4.jpg', 'img/card5/img5.jpg'],
+        ['img/card6/img1.jpg', 'img/card6/img2.jpg', 'img/card6/img3.jpg', 'img/card6/img4.jpg', 'img/card6/img5.jpg'],
+        ['img/card7/img1.jpg', 'img/card7/img2.jpg', 'img/card7/img3.jpg', 'img/card7/img4.jpg', 'img/card7/img5.jpg'],
+        ['img/card8/img1.jpg', 'img/card8/img2.jpg', 'img/card8/img3.jpg', 'img/card8/img4.jpg', 'img/card8/img5.jpg'],
+        ['img/card9/img1.jpg', 'img/card9/img2.jpg', 'img/card9/img3.jpg', 'img/card9/img4.jpg', 'img/card9/img5.jpg'],
         ["img/image4.jpg", "img/image4-2.jpg", "img/image4-3.jpg"]
     ];
 
