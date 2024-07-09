@@ -7,13 +7,15 @@ document.addEventListener("DOMContentLoaded", function () {
         ['img/card4/img1.jpg', 'img/card4/img2.jpg', 'img/card4/img3.jpg', 'img/card4/img4.jpg', 'img/card4/img5.jpg'],
         ['img/card5/img1.jpg', 'img/card5/img2.jpg', 'img/card5/img3.jpg', 'img/card5/img4.jpg', 'img/card5/img5.jpg'],
         ['img/card6/img1.jpg', 'img/card6/img2.jpg', 'img/card6/img3.jpg', 'img/card6/img4.jpg', 'img/card6/img5.jpg'],
-        ['img/card7/img1.jpg', 'img/card7/img2.jpg', 'img/card7/img3.jpg', 'img/card7/img4.jpg', 'img/card7/img5.jpg'],
-        ['img/card8/img1.jpg', 'img/card8/img2.jpg', 'img/card8/img3.jpg', 'img/card8/img4.jpg', 'img/card8/img5.jpg'],
+        ['img/card7/img1.jpg', 'img/card7/img2.jpg', 'img/card7/img3.jpg'],
+        ['img/card8/img1.jpg'],
         ['img/card9/img1.jpg', 'img/card9/img2.jpg', 'img/card9/img3.jpg', 'img/card9/img4.jpg', 'img/card9/img5.jpg'],
-        ['img/card10/img1.jpg', 'img/card10/img2.jpg', 'img/card10/img3.jpg'],
+        ['img/card10/img1.jpg', 'img/card10/img2.jpg'],
         ['img/card11/img1.jpg', 'img/card11/img2.jpg', 'img/card11/img3.jpg'],
         ['img/card12/gifmaquete.gif'],
-        ["img/image4.jpg", "img/image4-2.jpg", "img/image4-3.jpg"]
+        ['img/card13/img1.jpg', 'img/card13/img2.jpg', 'img/card13/img3.jpg', 'img/card13/img4.jpg'],
+        ['img/card14/img1.jpg', 'img/card14/img2.jpg', 'img/card14/img3.jpg', 'img/card14/img4.jpg', 'img/card14/img5.jpg', 'img/card14/img6.jpg', 'img/card14/img7.jpg', 'img/card14/img8.jpg', 'img/card14/img9.jpg', 'img/card14/img10.jpg'],
+        ['img/card15/img1.jpg', 'img/card15/img2.jpg', 'img/card15/img3.jpg', 'img/card15/img4.jpg', 'img/card15/img5.jpg', 'img/card15/img6.jpg', 'img/card15/img7.jpg']
     ];
 
     const cards = document.querySelectorAll('.project-image');
