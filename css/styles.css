@@ -198,6 +198,37 @@ footer p {
     box-shadow: 0 0 10px rgba(0, 255, 255, 0.5); /* Efeito de sombra neon */
 }
 
+.card-maior .card-body {
+    text-align: center;
+}
+
+.card-maior .tiktok-embed {
+    max-width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px; /* Bordas arredondadas para os cards */
+    overflow: hidden; /* Esconder qualquer conteúdo que ultrapasse as bordas */
+}
+
+.card-maior iframe {
+    width: 100%;
+    height: auto;
+    max-width: 560px; /* Limita a largura máxima do iframe */
+    max-height: 315px; /* Limita a altura máxima do iframe */
+    margin-bottom: 10px;
+}
+
+.g-ytsubscribe {
+    display: block;
+    margin: 10px auto; /* Centraliza o botão de inscrição */
+}
+
+@media (max-width: 768px) {
+    .card-maior iframe {
+        max-width: 100%;
+        max-height: auto;
+    }
+}
+
 #marcoCard {
     background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente para melhor contraste */
     border-color: #ff0000; /* Borda neon vermelha */
