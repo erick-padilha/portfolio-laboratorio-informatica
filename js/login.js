@@ -8,6 +8,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
     var users = {
         "user1": "password1",
         "user2": "password2",
+        "sv77@calabria.com.br": "SU1873porte@",
         "educando": "senha123"
         // Adicione mais usuários e senhas conforme necessário
     };
