@@ -10,6 +10,44 @@ h1, h2 {
     margin-top: 20px;
 }
 
+/* Estilo para a caixa de login */
+.login-card {
+    background-color: rgba(0, 0, 0, 0.5); /* Preto transparente */
+    border: 2px solid #8a2be2; /* Borda neon roxa */
+    color: white; /* Texto branco */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 0 10px rgba(138, 43, 226, 0.5); /* Sombra neon */
+}
+
+.login-card .card-header {
+    text-align: center; /* Centraliza o texto do cabeçalho */
+}
+
+.login-card .form-control {
+    background-color: rgba(255, 255, 255, 0.1); /* Fundo branco transparente */
+    color: white; /* Texto branco */
+    border: 1px solid #8a2be2; /* Borda neon roxa */
+}
+
+.login-card .form-control::placeholder {
+    color: rgba(255, 255, 255, 0.7); /* Placeholder branco transparente */
+}
+
+.login-card .form-group label {
+    color: #8a2be2; /* Cor do texto do rótulo */
+}
+
+.btn-login {
+    margin-top: 20px; /* Espaçamento superior */
+    border: 2px solid #ffff; /* Bordas neon mais grossas */
+    color: #ffff; /* Cor do texto */
+    font-weight: 900;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffff, 0 0 20px #ffff, 0 0 40px #ffff, 0 0 80px #ffff; /* Efeito de texto neon */
+    background-color: transparent; /* Fundo transparente */
+    width: 100%; /* Largura total */
+    margin-bottom: 10px; /* Espaçamento inferior */
+}
+
 /* Estilo para o menu de navegação */
 .navbar-dark .navbar-nav .nav-link {
     color: #ffffff;

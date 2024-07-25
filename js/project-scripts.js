@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
         ['img/card8/img1.jpg'],
         ['img/card9/img1.jpg', 'img/card9/img2.jpg', 'img/card9/img3.jpg', 'img/card9/img4.jpg', 'img/card9/img5.jpg'],
         ['img/card10/img1.jpg', 'img/card10/img2.jpg'],
-        ['img/card11/img1.jpg', 'img/card11/img2.jpg', 'img/card11/img3.jpg'],
+        ['img/card11/img1.jpg', 'img/card11/img1.jpg', 'img/card11/img1.jpg'],
         ['img/card12/gifmaquete.gif'],
         ['img/card13/img1.jpg', 'img/card13/img2.jpg', 'img/card13/img3.jpg', 'img/card13/img4.jpg'],
         ['img/card14/img1.jpg', 'img/card14/img2.jpg', 'img/card14/img3.jpg', 'img/card14/img4.jpg', 'img/card14/img5.jpg', 'img/card14/img6.jpg', 'img/card14/img7.jpg', 'img/card14/img8.jpg', 'img/card14/img9.jpg', 'img/card14/img10.jpg'],
