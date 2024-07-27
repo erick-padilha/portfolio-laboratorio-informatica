@@ -15,7 +15,10 @@ document.addEventListener("DOMContentLoaded", function () {
         ['img/card12/gifmaquete.gif'],
         ['img/card13/img1.jpg', 'img/card13/img2.jpg', 'img/card13/img3.jpg', 'img/card13/img4.jpg'],
         ['img/card14/img1.jpg', 'img/card14/img2.jpg', 'img/card14/img3.jpg', 'img/card14/img4.jpg', 'img/card14/img5.jpg', 'img/card14/img6.jpg', 'img/card14/img7.jpg', 'img/card14/img8.jpg', 'img/card14/img9.jpg', 'img/card14/img10.jpg'],
-        ['img/card15/img1.jpg', 'img/card15/img2.jpg', 'img/card15/img3.jpg', 'img/card15/img4.jpg', 'img/card15/img5.jpg', 'img/card15/img6.jpg', 'img/card15/img7.jpg']
+        ['img/card15/img1.jpg', 'img/card15/img2.jpg', 'img/card15/img3.jpg', 'img/card15/img4.jpg', 'img/card15/img5.jpg', 'img/card15/img6.jpg', 'img/card15/img7.jpg'],
+        ['img/card16/img1.jpg', 'img/card16/img2.jpg', 'img/card16/img3.jpg', 'img/card16/img4.jpg', 'img/card16/img5.jpg'],
+        ['img/card17/img1.jpeg', 'img/card17/img2.jpeg', 'img/card17/img3.jpeg', 'img/card17/img4.jpeg', 'img/card17/img5.jpeg', 'img/card17/img6.jpeg'],
+        ['img/card18/img1.jpg', 'img/card18/img2.jpg', 'img/card18/img3.jpg', 'img/card18/img4.jpg', 'img/card18/img5.jpg']
     ];
 
     const cards = document.querySelectorAll('.project-image');

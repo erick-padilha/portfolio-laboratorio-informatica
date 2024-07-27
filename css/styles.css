@@ -118,6 +118,14 @@ h1, h2 {
     margin-top: 10px; /* Espaçamento superior */
 }
 
+.collapse-content img {
+    display: block;
+    margin: 0 auto 10px auto; /* Centraliza a imagem e adiciona espaçamento inferior */
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do container */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 5px; /* Adiciona bordas arredondadas */
+}
+
 /* Estilo para o título dentro dos botões */
 .btn-title {
     font-size: 1.2rem; /* Tamanho da fonte do título */
@@ -191,7 +199,7 @@ h1, h2 {
     color: white;
 }
 
-/* Adicione estilos personalizados para os projetos */
+/* Adicionando estilos personalizados para os projetos */
 .project-image {
     height: 200px; /* Altura da imagem dos projetos */
     object-fit: cover;
@@ -216,6 +224,29 @@ h1, h2 {
     .card-header button {
         font-size: 1.2rem; /* Tamanho da fonte menor em dispositivos móveis */
     }
+}
+
+/* Estilo para a lista de ferramentas de aprendizagem */
+.ferramentas-intro {
+    margin-bottom: 15px; /* Espaçamento inferior entre o parágrafo e a lista */
+}
+
+.ferramentas-lista {
+    list-style-type: none; /* Remove bullets */
+    padding: 0;
+}
+
+.ferramentas-item {
+    margin-bottom: 15px; /* Espaçamento inferior entre os itens */
+}
+
+.ferramentas-link {
+    color: #8a2be2; /* Cor do link */
+    text-decoration: none; /* Remove sublinhado */
+}
+
+.ferramentas-link:hover {
+    text-decoration: underline; /* Adiciona sublinhado no hover */
 }
 
 /* Estilo para o rodapé */
